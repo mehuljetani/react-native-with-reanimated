@@ -4,4 +4,4 @@ This is a simple example demonstrating how to use React Native with the Reanimat
 
 ## Demo
 
-![App Demo](./assets/demo.gif)
+<img src="./assets/demo.gif" alt="App Demo" width="260" />
