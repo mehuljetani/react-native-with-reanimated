@@ -45,6 +45,11 @@ const screens = [
     name: 'Stack Carousel',
     component: 'StackCarouselScreen',
   },
+  {
+    id: '17',
+    name: 'CheckBox',
+    component: 'CheckBoxScreen',
+  },
 ];
 const HomeScreen = () => {
   const navigation = useNavigation();

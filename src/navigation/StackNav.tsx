@@ -8,6 +8,7 @@ import TabNavScreen from '../screens/TabNavScreen';
 import PinCodeScreen from '../screens/PinCodeScreen';
 import ParallaxScreen from '../screens/ParallaxScreen';
 import ShutdownScreen from '../screens/ShutdownScreen';
+import CheckBoxScreen from '../screens/CheckBoxScreen';
 import DotLoaderScreen from '../screens/DotLoaderScreen';
 import AnimatedTimerScreen from '../screens/AnimatedTimerScreen';
 import StackCarouselScreen from '../screens/StackCarouselScreen';
@@ -32,6 +33,7 @@ const StackNav = () => {
         <Stack.Screen name="PinCodeScreen" component={PinCodeScreen} />
         <Stack.Screen name="ParallaxScreen" component={ParallaxScreen} />
         <Stack.Screen name="ShutdownScreen" component={ShutdownScreen} />
+        <Stack.Screen name="CheckBoxScreen" component={CheckBoxScreen} />
         <Stack.Screen name="DotLoaderScreen" component={DotLoaderScreen} />
         <Stack.Screen
           name="ParallaxBackDropScreen"
