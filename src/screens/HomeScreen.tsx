@@ -35,6 +35,11 @@ const screens = [
   {id: '12', name: 'Arrow Range Picker', component: 'ValueArrowPickerScreen'},
   {id: '13', name: 'Dot Range Picker', component: 'ValueDotPickerScreen'},
   {id: '14', name: 'List Range Picker', component: 'ValueListPickerScreen'},
+  {
+    id: '15',
+    name: 'Parallax With BackDrop',
+    component: 'ParallaxBackDropScreen',
+  },
 ];
 const HomeScreen = () => {
   const navigation = useNavigation();

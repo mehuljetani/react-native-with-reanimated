@@ -18,6 +18,7 @@ import LikeInteractionScreen from '../screens/LikeInteractionScreen';
 import NativeIOSToggleScreen from '../screens/NativeIOSToggleScreen';
 import ValueArrowPickerScreen from '../screens/ValueArrowPickerScreen';
 import ToggleWithSymbolScreen from '../screens/ToggleWithSymbolScreen';
+import ParallaxBackDropScreen from '../screens/ParallaxBackDropScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -31,6 +32,10 @@ const StackNav = () => {
         <Stack.Screen name="ParallaxScreen" component={ParallaxScreen} />
         <Stack.Screen name="ShutdownScreen" component={ShutdownScreen} />
         <Stack.Screen name="DotLoaderScreen" component={DotLoaderScreen} />
+        <Stack.Screen
+          name="ParallaxBackDropScreen"
+          component={ParallaxBackDropScreen}
+        />
         <Stack.Screen
           name="AnimatedTimerScreen"
           component={AnimatedTimerScreen}

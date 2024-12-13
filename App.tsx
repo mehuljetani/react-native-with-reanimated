@@ -1,10 +1,8 @@
-import React from 'react'
+import React from 'react';
 import StackNav from './src/navigation/StackNav';
 
 const App = () => {
-  return (
-    <StackNav />
-  )
-}
+  return <StackNav />;
+};
 
-export default App
+export default App;
