@@ -1,3 +1,4 @@
+import React from 'react';
 import {
   Text,
   View,
@@ -8,13 +9,12 @@ import {
   TouchableOpacity,
   ImageBackground,
 } from 'react-native';
-import React from 'react';
-import {useNavigation} from '@react-navigation/native';
 import Animated, {
   interpolate,
-  useAnimatedStyle,
   useSharedValue,
+  useAnimatedStyle,
 } from 'react-native-reanimated';
+import {useNavigation} from '@react-navigation/native';
 
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
@@ -39,6 +39,11 @@ const screens = [
     id: '15',
     name: 'Parallax With BackDrop',
     component: 'ParallaxBackDropScreen',
+  },
+  {
+    id: '16',
+    name: 'Stack Carousel',
+    component: 'StackCarouselScreen',
   },
 ];
 const HomeScreen = () => {

@@ -10,6 +10,7 @@ import ParallaxScreen from '../screens/ParallaxScreen';
 import ShutdownScreen from '../screens/ShutdownScreen';
 import DotLoaderScreen from '../screens/DotLoaderScreen';
 import AnimatedTimerScreen from '../screens/AnimatedTimerScreen';
+import StackCarouselScreen from '../screens/StackCarouselScreen';
 import ProgressLoaderScreen from '../screens/ProgressLoaderScreen';
 import ValueDotPickerScreen from '../screens/ValueDotPickerScreen';
 import ToggleWithLabelScreen from '../screens/ToggleWithLabelScreen';
@@ -35,6 +36,10 @@ const StackNav = () => {
         <Stack.Screen
           name="ParallaxBackDropScreen"
           component={ParallaxBackDropScreen}
+        />
+        <Stack.Screen
+          name="StackCarouselScreen"
+          component={StackCarouselScreen}
         />
         <Stack.Screen
           name="AnimatedTimerScreen"
